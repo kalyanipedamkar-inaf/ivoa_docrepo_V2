@@ -1,0 +1,5 @@
+Flask>=2.2
+Flask-SQLAlchemy>=3.0
+PyPDF2>=3.0
+beautifulsoup4>=4.12
+Werkzeug>=2.2
