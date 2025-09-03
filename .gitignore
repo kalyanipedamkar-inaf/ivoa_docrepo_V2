@@ -222,3 +222,5 @@ venv/
 .vscode/
 .idea/
 >>>>>>> 4c8edfc (Added .gitignore)
+
+config.py
