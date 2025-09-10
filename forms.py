@@ -1,4 +1,4 @@
-import re
+
 from flask_wtf import FlaskForm
 from wtforms import (StringField, IntegerField, DateField, SelectField, TextAreaField,
                      SubmitField, BooleanField, PasswordField, validators, HiddenField, MultipleFileField,

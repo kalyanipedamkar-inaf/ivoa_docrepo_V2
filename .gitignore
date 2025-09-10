@@ -223,3 +223,5 @@ venv/
 .idea/
 >>>>>>> 4c8edfc (Added .gitignore)
 
+# Ignore sensitive files
+key.py

@@ -13,7 +13,7 @@ import pathlib
 from . import db
 from .__init__ import app, UPLOAD_DIR
 from .models import Ivoa, Errata, RFC_link, DOI_Bibcode
-#from .forms import 
+from .forms import InfoForm, ErrataForm, MoreInfo, RFCForm, DelForm
 
 @app.route('/')
 @app.route("/documents/")

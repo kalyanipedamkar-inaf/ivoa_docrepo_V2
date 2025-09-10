@@ -3,6 +3,7 @@ import flask
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+from . import key
 
 
 
@@ -16,7 +17,7 @@ UPLOAD_DIR = '/var/www/html/docrepo/uploads'
 # This is the main repository where the documents will be saved.
 documents = '/var/www/html/docrepo/documents'
 
-app.config['SECRET_KEY'] = 'SECRET_KEY'
+app.config['SECRET_KEY'] = key.SECRET_KEY
 app.config['MAX_CONTENT_LENGTH'] = 300 * 1024 * 1024
 app.config['UPLOAD_EXTENSIONS'] = ['.zip','.tar']
 app.config['UPLOAD_DIR'] = UPLOAD_DIR
